@@ -205,7 +205,6 @@ section form label input, section form label select, section form label textarea
 section form button {
   -ms-flex-item-align: end;
       align-self: flex-end;
-  margin: 5px 0;
 }
 
 .wrapperOfLogos {
@@ -234,6 +233,10 @@ footer ul {
   border-top: 2px solid lightgrey;
   width: 90%;
   margin: 50px auto 50px;
+}
+
+footer ul img {
+  margin: 0 5px;
 }
 
 footer h4 {
