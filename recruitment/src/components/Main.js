@@ -1,12 +1,18 @@
 import React from 'react';
 
+
+import iconDevelopment from "../assets/images/icon_development.svg"
+import iconAudit from "../assets/images/icon_audyt.svg"
+import iconConsulting from "../assets/images/icon_consulting.svg"
+
+
 const Main = () => 
 (<main>
     <h1 class="header">Our Passion</h1>
     <aside>
         <div class="passion">
             <div>
-                <img src="/assets/images/icon_development.svg" alt=""/>
+                <img src={iconDevelopment} alt=""/>
                     <h3>Development</h3>
                 </div>
 
@@ -14,7 +20,7 @@ const Main = () =>
             </div>
             <div class="passion">
                 <div>
-                    <img src="/assets/images/icon_audyt.svg" alt=""/>
+                    <img src={iconAudit} alt=""/>
                         <h3>Audyt</h3>
                 </div>
 
@@ -22,7 +28,7 @@ const Main = () =>
                 </div>
                 <div class="passion">
                     <div>
-                        <img src="/assets/images/icon_consulting.svg" alt=""/>
+                        <img src={iconConsulting} alt=""/>
                             <h3>Consulting</h3>
                 </div>
                         <p>Last mont ,my wife, Anne Doe, took me to Las Vegas because she had to go.</p>

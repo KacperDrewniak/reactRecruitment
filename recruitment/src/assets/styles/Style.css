@@ -153,7 +153,7 @@ main aside .passion div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url("/assets/images/Pattern_horizontal.png");
+  background-image: url("../images/Pattern_horizontal.png");
   background-size: cover;
   height: 200px;
   width: 100%;
